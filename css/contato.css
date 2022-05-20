@@ -1,0 +1,49 @@
+
+.contato-form {
+min-width: 200px;
+}
+.contato-barraform {
+margin-top: 80px;
+background-color:black;
+text-align: center;
+vertical-align: middle;
+padding:10px 0px;
+color:#D8D8D8;
+}
+.contato-form-input{
+height:30px;
+min-width: 300px;
+box-sizing: border-box;
+}
+.contato-form-textarea{
+margin:0;
+resize:none;
+min-height:100px;
+min-width: 300px;
+}
+.contato-form-submit{
+border-style:none;
+background-color: black;
+color:#D8D8D8
+}
+.contato-form-submit:hover{
+background-color: black;
+color:#D8D8D8
+}
+
+.contato-wrapper {
+margin-top: 50px;
+display: grid;
+gap: 20px;
+justify-items: center;
+min-width: auto;
+max-width:300px;
+width:70%;
+grid-template-columns: 1fr 1fr 1fr;
+}
+form input{
+padding:10px 5px;
+}
+form textarea{
+  padding:10px 5px;
+}
